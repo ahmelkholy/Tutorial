@@ -137,6 +137,8 @@ Dr. Fawzy El-Bedwy, professor of Jewish Studies in Universite de la Manouba, say
 of a new reality, no more minorities or majorities, just citizens. We're all German, or Italian, or Polish,
 we all have an identity that binds us which is the nation, even if we have differences in religion or race, we're all citizens,
 and integrated in one nation. The Jewish reaction to this ideology was different, some of the Jewish communities refused the idea,
+
+
 they saw that the one way they can still be Jews and not to integrate and forget their history is to isolate themselves and refuse this new reality,
 and differentiate themselves from the new identities formed, this fear was moved by the violence that many European Jewish communities faced,
 especially in Russia and Poland, so much so that the name "Pogrom" appeared, which is a Russian word meaning killing the Jews,
