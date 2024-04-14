@@ -19,38 +19,7 @@ to [Github Pages][1] without generating and uploading HTML bundle every time whe
 changes to the original repo.
 
 ## How to Get Started
-
-This theme can be used just as other [Jekyll themes][1] and support [remote theme][12],
-see [the official guide][13] as well.
-
-You can introduce this jekyll theme into your own site by either
-
-- [Fork][3] this repository and add your markdown posts to the `_posts` folder.
-- Use as a remote theme in your [`_config.yml`][14](just like what we do for this
-  site itself),
-
-```yaml
-remote_theme: sighingnow/jekyll-gitbook
-```
-
-### Deploy Locally with Jekyll Serve
-
-This theme can be ran locally using Ruby and Gemfiles.
-
-[Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) - GitHub
-
-## Full-text search
-
-The search functionality in jekyll-gitbook theme is powered by the [gitbook-plugin-search-pro][5] plugin and is enabled by default.
-
-[https://sighingnow.github.io/jekyll-gitbook/?q=generated](https://sighingnow.github.io/jekyll-gitbook/?q=generated)
-
-## Code highlight
-
-The code highlight style is configurable the following entry in `_config.yaml`:
-
-```yaml
-syntax_highlighter_style: colorful
+yntax_highlighter_style: colorful
 ```
 
 The default code highlight style is `colorful`, the full supported styles can be found from [the rouge repository][6]. Customized
