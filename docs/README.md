@@ -19,6 +19,7 @@ to [Github Pages][1] without generating and uploading HTML bundle every time whe
 changes to the original repo.
 
 ## How to Get Started
+
 yntax_highlighter_style: colorful
 ```
 
