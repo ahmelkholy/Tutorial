@@ -1,0 +1,10 @@
+# the presentation
+# how to solve it
+# i should automate it
+# tools used
+# python script
+# markdown 
+# Arabic Lang
+# embed the sound
+# the results
+# GitHub Repo
