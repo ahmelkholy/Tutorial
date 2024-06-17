@@ -1,3 +1,9 @@
+; run the script as admin 
+#SingleInstance Force
+SetWorkingDir C:\Users\ahm_e\Documents\PROJECTs-other\videos_youtube\Code\
+if not A_IsAdmin
+    Run *RunAs "C:\Users\ahm_e\Documents\PROJECTs-other\videos_youtube\Code\OBS.ahk"
+
 F1::
 IfWinExist, ahk_exe obs64.exe
 {
