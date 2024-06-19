@@ -32,11 +32,11 @@ They were expelled from the village, wandering in the unknown with no place to g
 near the Arab House. They weren't just old men, any boy who looked over 13 years old was considered an adult man.
 By the Arab house, the witness of these events, execution began.
 The testimonies that Teddy Katz heard from the soldiers were terrifying and were later shown combined in a movie called “Tantura”
-by an Israeli director named Alon Schwarz. {\an5}One of the soldiers said they put them into a barrel and shot them in the barrel.
-{\an5}And that he still remembers the blood in the barrels. {\an5}Someone else said: “Who in later years was a big man in the Defense Ministry.
-{\an5}With his pistol he killed one Arab after another.” {\an5}A third soldier named Amitzur Cohen said while laughing,
-{\an5}“I was a murderer. I didn't take prisoners.” {\an5}How many do you think he killed? Actually, he doesn't know and neither do we. {\an5}He says while laughing: “I didn't count.
-{\an5}I had a machine gun with 250 bullets. I can't say how many.” What I am telling you is not the testimonies of the victims, but those of the killers!
+by an Israeli director named Alon Schwarz. One of the soldiers said they put them into a barrel and shot them in the barrel.
+And that he still remembers the blood in the barrels. Someone else said: “Who in later years was a big man in the Defense Ministry.
+With his pistol he killed one Arab after another.” A third soldier named Amitzur Cohen said while laughing,
+“I was a murderer. I didn't take prisoners.” How many do you think he killed? Actually, he doesn't know and neither do we. He says while laughing: “I didn't count.
+I had a machine gun with 250 bullets. I can't say how many.” What I am telling you is not the testimonies of the victims, but those of the killers!
 These are the ones who are supposed to try and tone down the severity of their actions imagine that it's this horrific after being "toned down".
 The victims' testimonies are far more horrific than this, you can read them in detail in the sources. Most of the victims were displaced as refugees in camps
 some in Syria, and some still live today in the village of Al-Faradis. They lived in a village
@@ -116,8 +116,11 @@ I know that the story is as fake as it gets, and you know too, but apparently th
 and only lives for the Ice Coffee, like Abod Btah said, the best press reporter in the world, it appears so that this citizen doesn't know that it's fake.
 Because for many decades, Israel invested in invading the western mind with this story in a way that assures the burial of the real story beneath.
 I'm here today to tell you about the real story. The Nakba.
+
 FIRST MYTH 'ONE PEOPLE' My friend, the first myths is that there's something called "The Jews", all of them as an entity since the beginning of history,
+
 أسطورة أضطهاد 2000 سنة
+
 one people, one race, same hopes, oppressed for 300 years, not individuals, but one entity.
 While if we took a look at Jewish communities in Europe, and compare them to Jewish communities in Arab countries by the end of the 19th century,
 a quick look will tell us that this isn't real. Jews in Morocco for example were 150,000,
@@ -150,7 +153,9 @@ saw themselves as European citizens in European countries. All what I said denie
 at the end of it all, Jews are individuals in communities with their conditions changing from best to worst or vice versa,
 according to the historical age and geographical place they lived in. The Zionist ideology is trying to do the opposite, to picture Jews as a unique condition in history,
 and that aggression against them is fixed and fateful. So much so that a Zionist thinker called Leon Pinker says about Anti-Semitism that it's a 2000 years old genetic disease and infection.
+
 أسطورة الصهيونية هي اليهودية
+
 SECOND MYTH 'ZIONISM IS JUDIASM' The Anti-Zionism Israeli historian Ilan Pappe said that the worst thing Zionism did was manipulating Judiasm
 to use religion as a justification for implementing an originally colonial ideology. 'Abo Hmeed please, break it down, I don't get it.'
 I know you, you like stories. You want a story with a conflict and a villian, right? I told you a while ago, some Jews accepted integration,
@@ -213,7 +218,9 @@ this epic story, into a modern ownership document to own Palestine, for the immi
 but a religious duty. That's when the mix-up started between Zionism and Judaism.
 That's what created the fallacy that Judiasm equals Zionism and that Anti-Zionism is the same as Anti-Judiasm.
 THIRD MYTH 'A LAND WITHOUT PEOPLE' A land without people is the most famous Zionist ideas, that's despite the fact that Palestine during late 19th and early 20th centuries
+
 أسطورة أرض بلا شعب
+
 was a fully integrated society with Muslim majority, Christians, and Jewish minority. A society despite it's religious diversity it was culturally homogenous,
 Yaffa, the biggest city on the east coast, had more than 60 thousand Palestinians, it had cinemas, theatres, and a port
 that was hundreds of years older than Tel Aviv's new port. The British delegate that came to Palestine between 1871 and 1877
@@ -250,7 +257,9 @@ The number was doubled but still not enough. This made the Zionist settler movem
 'What would we do with 50k? We need to pace things up. Like anyone wants to build his "project", we need an investor,
 and who was the perfect candidate? Britain.
 FOURTH MYTH 'BRITAIN THE ENEMY' In the normal fictional Israeli narrative, Britain is an enemy that tries to hinder establishing the Israeli state.
+
 أسطورة الإستقلال عن بريطانيا
+
 While if you look at history, you'll see it's exactly the opposite, and that without Britain, the Zionist project wouldn't have worked.
 Until before World War I in 1914, and years after the immigration of European Jews to Palestinians,
 their number didn't exceed 50 thousand, while the Palestinians was 500,000. Like I told you, in the Zionist belief,
@@ -427,7 +436,9 @@ they won't lose another soldier in the conflict. So, they tossed it to the Unite
 Eugene Rogan, an English historian, says something very surreal, that the country that says it battled the most terrorism
 kicked the British out with terrorism. Again I'm not saying that. It's Mr. Eugene!
 FIFTH MYTH DAVID AND GOLIATH The United Nations issued the Partition Resolution 181
+
 أسطورة داوود وجالوت
+
 dividing it into 6 regions, 3 Arab regions and 3 Jewish ones, with Jerusalem under international supervision. 56% of the land would go to the Jewish country.
 Most of the land would go to the Jews. Even though, the number of Palestinians was double of the Jews. In 1947, the number of Palestinians was one million and 200,000
 and the number of Jews was 6,000. Palestinians legally owned, hear this part, 94% of the land and 80% of the agricultural land.
@@ -531,7 +542,9 @@ but to a land with 1.3 Palestinians there, but they weren't humans in the eyes o
 This is probably the way that new generations in Israel will inherit the fictional legend. A group of psychological defense mechanisms, denial and justification,
 to help them sleep at night and forget that buried in this land just a meter down, all the possible evidence
 on the killing, Genocide, and Ethnic Cleansing. What happened in Tantura, happened in all Palestinian Land.
+
 أسطورة الديموقراطية الوحيدة في الشرق الأوسط
+
 LAST MYTH 'THE ONLY DEMOCRACY IN THE MIDDLE EAST' In 1948, Ben Gurion, the immigrant who spent his youth in Poland, said
 that not only did he achieve the dream, but he's also its founder, or how the Jews named him, the state's main founder.
 A dream described as a 100% Jewish country without Arabs, a completely pure society for Jews only.
