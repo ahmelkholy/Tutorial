@@ -52,6 +52,7 @@ on top of execution fields and mass graves, as if Tantura is a metaphor for all 
 Which is a very thin and fragile layer of "Western urbanization" and only meter below that fragile layer is evidence
 of killing, ethnic cleansing, and genocide. My dear, everything I told you so far is from Israeli sources,
 not Western but Israeli. The Arab sources contain much uglier details. But I have a reason for choosig these sources.
+
 I want to showcase some examples for the few Israeli voices voices that tried to dig into the roots of the Nakba
 and tell you what happened to them. On the hands of "The Only Democracy in the Middle East"!
 These people were silenced. Teddy Katz, for example, who held interviews with soldiers had a defamation case raised against him by war criminals!
@@ -217,6 +218,7 @@ According to the Argentinian sociologist, Pedro Bridger. Herzl turned the biblic
 this epic story, into a modern ownership document to own Palestine, for the immigration to be seen as not a political solution
 but a religious duty. That's when the mix-up started between Zionism and Judaism.
 That's what created the fallacy that Judiasm equals Zionism and that Anti-Zionism is the same as Anti-Judiasm.
+
 THIRD MYTH 'A LAND WITHOUT PEOPLE' A land without people is the most famous Zionist ideas, that's despite the fact that Palestine during late 19th and early 20th centuries
 
 أسطورة أرض بلا شعب
@@ -256,6 +258,8 @@ that publicly warned against the Jewish settlement movement. But the immigration
 The number was doubled but still not enough. This made the Zionist settler movement feel it'd take them a hundred years.
 'What would we do with 50k? We need to pace things up. Like anyone wants to build his "project", we need an investor,
 and who was the perfect candidate? Britain.
+
+
 FOURTH MYTH 'BRITAIN THE ENEMY' In the normal fictional Israeli narrative, Britain is an enemy that tries to hinder establishing the Israeli state.
 
 أسطورة الإستقلال عن بريطانيا
@@ -435,6 +439,7 @@ of preventing the establishment of a Palestinian state until the last minute! Un
 they won't lose another soldier in the conflict. So, they tossed it to the United States and said: "You take this. My back hurts!"
 Eugene Rogan, an English historian, says something very surreal, that the country that says it battled the most terrorism
 kicked the British out with terrorism. Again I'm not saying that. It's Mr. Eugene!
+
 FIFTH MYTH DAVID AND GOLIATH The United Nations issued the Partition Resolution 181
 
 أسطورة داوود وجالوت
