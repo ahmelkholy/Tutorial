@@ -1,17 +1,19 @@
-# Agenda
+# الأجندة
 
-## Introduction
+## مقدمة
 
-## Starting with a Markdown File
+## البدء بملف Markdown
 
-## Converting Markdown to Word Using Pandoc
+## تحويل Markdown إلى Word باستخدام Pandoc
 
-## Understanding Word Document Structure
+## فهم هيكل مستند Word
 
-## Creating and Using Styles
+## تحضير المستند للكتابة
 
-## Using Page Breaks and Section Breaks
+## إنشاء الأنماط واستخدامها
 
-## Adding Cover Pages
+## استخدام فواصل الصفحات وفواصل الأقسام
 
-## Finalizing the Document
+## إضافة صفحات الغلاف
+
+## إنهاء المستند
