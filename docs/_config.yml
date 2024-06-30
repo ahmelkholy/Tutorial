@@ -1,4 +1,8 @@
 # Configurations
+languages:
+  - en
+  - ar
+
 title:           'Tutorial' 
 longtitle:        this is a Documentation for DStoolkit project 
 author:           Ahmed M. Elkholy 

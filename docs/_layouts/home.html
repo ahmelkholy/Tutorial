@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
-<html lang="en" >
+<html lang="{{ page.lang | default: 'en' }}" dir="{% if page.lang == 'ar' %}rtl{% else %}ltr{% endif %}">
     <head>
-
         {%- include head.html -%}
 
         {% assign reversed_posts = site.posts | reverse %}
