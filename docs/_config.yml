@@ -1,8 +1,4 @@
 # Configurations
-languages:
-  - en
-  - ar
-
 title:           'Tutorial' 
 longtitle:        this is a Documentation for DStoolkit project 
 author:           Ahmed M. Elkholy 
@@ -19,10 +15,10 @@ rss:              RSS
 # bootstrap: use the remote theme for the site itself
 remote_theme: sighingnow/jekyll-gitbook
 
-host: 127.0.0.1
+host: 127.0.0.2
 # the preview server used. Leave as is.
 
-port: 4001
+port: 4000
 
 toc:
   enabled: true
