@@ -15,10 +15,10 @@ rss:              RSS
 # bootstrap: use the remote theme for the site itself
 remote_theme: sighingnow/jekyll-gitbook
 
-host: 127.0.0.2
+host: 127.0.0.1
 # the preview server used. Leave as is.
 
-port: 4000
+port: 4001
 
 toc:
   enabled: true
