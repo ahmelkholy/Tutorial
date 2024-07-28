@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:05,980
+The dollar symbol in front of a word indicates that it is a shell variable.
+
+2
+00:00:05,980 --> 00:00:14,009
+The command echo $COLUMNS X $LINES prints out the size of your terminal.
+
+3
+00:00:14,009 --> 00:00:16,620
+Now 80 x 24 is a really common size.
+
+4
+00:00:16,620 --> 00:00:20,190
+Mine's a little bit wider than that because this is a wide screen video.
+
+5
+00:00:20,190 --> 00:00:24,120
+But if you resize the terminal,
+
+6
+00:00:24,120 --> 00:00:26,970
+these variables will change.
+
+7
+00:00:26,969 --> 00:00:30,199
+We'll see a lot more about shell variables later in this course.
+
