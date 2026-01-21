@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:03,015
+The quiz gave you four file names and asked,
+
+2
+00:00:03,015 --> 00:00:05,915
+what's a single command that will delete the second
+
+3
+00:00:05,915 --> 00:00:10,019
+two while leaving the first two intact?
+
+4
+00:00:10,019 --> 00:00:13,214
+Now the first option, rm quote,
+
+5
+00:00:13,214 --> 00:00:16,184
+bad file quote, space quote,
+
+6
+00:00:16,184 --> 00:00:18,329
+good name bad face quote.
+
+7
+00:00:18,329 --> 00:00:20,344
+That'll work just fine.
+
+8
+00:00:20,344 --> 00:00:24,634
+It'll remove the two files we want to get while not touching the other two.
+
+9
+00:00:24,635 --> 00:00:26,505
+But it's kind of long.
+
+10
+00:00:26,504 --> 00:00:28,945
+That's a lot longer than the other options.
+
+11
+00:00:28,945 --> 00:00:33,765
+And the second one will remove every file whose name contains bad.
+
+12
+00:00:33,765 --> 00:00:37,829
+But that includes bad name good file which we wanted to keep.
+
+13
+00:00:37,829 --> 00:00:40,519
+So that option is not great.
+
+14
+00:00:40,520 --> 00:00:46,280
+The third one rm bad exclamation point good is not something that the shell understands.
+
+15
+00:00:46,280 --> 00:00:48,170
+It'll give you a weird error if you try it,
+
+16
+00:00:48,170 --> 00:00:50,010
+but it won't do anything terrible.
+
+17
+00:00:50,009 --> 00:00:55,114
+And the fourth one, rm star quotes bad space F quote star.
+
+18
+00:00:55,115 --> 00:01:01,295
+That will remove every file whose name contains bad space F which includes,
+
+19
+00:01:01,295 --> 00:01:04,939
+bad file and good name bad face.
+
+20
+00:01:04,939 --> 00:01:06,359
+Exactly what we want.
+
+21
+00:01:06,359 --> 00:01:11,200
+So the answer is that we can use either the first or the fourth option.
+
+22
+00:01:11,200 --> 00:01:14,000
+But I'd go with the fourth one because it's the shortest.
+

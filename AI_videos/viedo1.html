@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar" xml:lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>viedo1</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+</head>
+<body>
+<h1 id="سلسلة-المهندس-الخارق---من-الصفر-إلى-دمج-الذكاء-الاصطناعي">🎯
+سلسلة: “المهندس الخارق - من الصفر إلى دمج الذكاء الاصطناعي”</h1>
+<blockquote>
+<p><strong>الفكرة المحورية:</strong> الـ AI لن يستبدل المبرمج، لكن
+المبرمج الذي يتقن أدواته ويدمج الـ AI في سير عمله سيستبدل من لا
+يفعل.</p>
+</blockquote>
+<h2 id="نظرة-عامة-على-السلسلة">📌 نظرة عامة على السلسلة</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">#</th>
+<th style="text-align: left;">الفيديو</th>
+<th style="text-align: left;">المهارة الأساسية</th>
+<th style="text-align: left;">الوقت المقترح</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">العقلية</td>
+<td style="text-align: left;">تغيير طريقة التفكير</td>
+<td style="text-align: left;">8-10 دقائق</td>
+</tr>
+<tr>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">سرعة الكتابة</td>
+<td style="text-align: left;">Touch Typing</td>
+<td style="text-align: left;">10-12 دقيقة</td>
+</tr>
+<tr>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">الترمينال</td>
+<td style="text-align: left;">أساسيات سطر الأوامر</td>
+<td style="text-align: left;">12-15 دقيقة</td>
+</tr>
+<tr>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Git</td>
+<td style="text-align: left;">إدارة الإصدارات</td>
+<td style="text-align: left;">15-18 دقيقة</td>
+</tr>
+<tr>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Vim Motions</td>
+<td style="text-align: left;">التحرير السريع</td>
+<td style="text-align: left;">12-15 دقيقة</td>
+</tr>
+<tr>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">أتمتة المهام</td>
+<td style="text-align: left;">Scripts &amp; Aliases</td>
+<td style="text-align: left;">10-12 دقيقة</td>
+</tr>
+<tr>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">بيئة التطوير</td>
+<td style="text-align: left;">VS Code المتقدم</td>
+<td style="text-align: left;">12-15 دقيقة</td>
+</tr>
+<tr>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">دمج الـ AI</td>
+<td style="text-align: left;">Copilot &amp; CLI Tools</td>
+<td style="text-align: left;">15-20 دقيقة</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2
+id="الفيديو-الأول-العقلية-mindset---الـ-ai-ليس-مجرد-شات-بوت"><strong>الفيديو
+الأول: العقلية (Mindset) - الـ AI ليس مجرد “شات بوت”</strong></h2>
+<p><strong>🎯 الهدف:</strong> تغيير نظرة المشاهد للذكاء الاصطناعي من
+“موقع بنفتحه” إلى “أداة مدمجة في النظام”.</p>
+<p><strong>⏱️ المدة المقترحة:</strong> 8-10 دقائق</p>
+<h3 id="المقدمة-the-hook-دقيقة-واحدة"><strong>المقدمة (The
+Hook):</strong> <em>(دقيقة واحدة)</em></h3>
+<ul>
+<li><strong>مشهد تمثيلي بسيط:</strong>
+<ul>
+<li>🔴 <strong>الطريقة الخاطئة:</strong> شخص يفتح المتصفح → ينسخ كود →
+يذهب لـ ChatGPT → يلصق → ينتظر → ينسخ الرد → يعود لملفه… (عملية بطيئة
+ومملة مع صوت تيك توك مزعج).</li>
+<li>🟢 <strong>الطريقة الصحيحة:</strong> شخص يكتب أمراً بسيطاً في
+الترمينال → الـ AI ينفذ المهمة فوراً أمامه (مع صوت “whoosh” سريع).</li>
+</ul></li>
+<li><strong>الجملة الافتتاحية:</strong> &gt; “الذكاء الاصطناعي أداة
+لزيادة إنتاجيتك، لكن طريقتنا في استخدامه غالباً بتقلل الإنتاجية بسبب
+التشتت (Context Switching). النهاردة هنبدأ رحلة عشان نخلي الـ AI يشتغل
+<em>عندك</em>، مش أنت اللي تروح له.”</li>
+</ul>
+<h3 id="المحتوى-الأساسي-5-6-دقائق"><strong>المحتوى الأساسي:</strong>
+<em>(5-6 دقائق)</em></h3>
+<p><strong>1. مشكلة الواجهة (The Interface Problem):</strong>
+<em>(دقيقتان)</em></p>
+<ul>
+<li>الـ Chat Interface مصممة للعامة، وليست للمحترفين (Power Users).</li>
+<li><strong>المشاكل:</strong>
+<ul>
+<li>Context Switching: كل مرة تنتقل للمتصفح، دماغك بيحتاج 23 دقيقة
+للتركيز مرة تانية (دراسة من Microsoft).</li>
+<li>فقدان السياق: الـ AI مش شايف ملفاتك، مش عارف المشروع، مش فاهم الـ
+Error بتاعك.</li>
+<li>البطء: نسخ ولصق ≠ إنتاجية.</li>
+</ul></li>
+</ul>
+<p><strong>2. المفهوم البديل (Integrated AI):</strong>
+<em>(دقيقتان)</em></p>
+<ul>
+<li>الـ AI كمساعد (Assistant) يعيش داخل بيئة التطوير:
+<ul>
+<li><strong>في الـ IDE:</strong> GitHub Copilot، Cursor، Cody</li>
+<li><strong>في الترمينال:</strong> Shell-GPT، GitHub Copilot CLI،
+aider</li>
+<li><strong>في كل مكان:</strong> Raycast AI، Alfred + ChatGPT</li>
+</ul></li>
+<li><strong>القاعدة الذهبية:</strong> “الـ AI يجيلك، مش أنت تروح
+له”</li>
+</ul>
+<p><strong>3. خارطة الطريق (The Roadmap):</strong> <em>(دقيقة
+ونصف)</em></p>
+<ul>
+<li><p>استعراض سريع لما سيتعلمه في السلسلة:</p>
+<pre><code>┌─────────────────────────────────────────────────┐
+│     🧠 العقلية (أنت هنا)                        │
+│         ↓                                        │
+│     ⌨️ سرعة الكتابة (Touch Typing)              │
+│         ↓                                        │
+│     💻 الترمينال (Command Line)                 │
+│         ↓                                        │
+│     📚 Git (Version Control)                    │
+│         ↓                                        │
+│     ⚡ Vim Motions (السرعة القصوى)               │
+│         ↓                                        │
+│     🔧 الأتمتة (Scripts &amp; Aliases)              │
+│         ↓                                        │
+│     🛠️ بيئة التطوير (VS Code المتقدم)           │
+│         ↓                                        │
+│     🤖 دمج الـ AI (النتيجة النهائية)            │
+└─────────────────────────────────────────────────┘</code></pre></li>
+<li><p><strong>لماذا هذا الترتيب؟</strong> لأن كل مهارة تبني على اللي
+قبلها.</p></li>
+</ul>
+<h3 id="الخاتمة-call-to-action-دقيقة-واحدة"><strong>الخاتمة (Call to
+Action):</strong> <em>(دقيقة واحدة)</em></h3>
+<blockquote>
+<p>“عشان نوصل للمرحلة دي، لازم نجهز أدواتنا. أول وأهم أداة هي
+<strong>يدك</strong>. هل بتكتب بسرعة ولا لسه بتبص على الكيبورد؟ ده موضوع
+الفيديو الجاي.”</p>
+</blockquote>
+<p><strong>📝 تمرين للمشاهد:</strong></p>
+<ul>
+<li>راقب نفسك لمدة يوم: كم مرة انتقلت بين التطبيقات؟ كم مرة فتحت ChatGPT
+في المتصفح؟</li>
+</ul>
+<hr />
+<h2
+id="الفيديو-الثاني-الأساس---سرعة-الكتابة-touch-typing"><strong>الفيديو
+الثاني: الأساس - سرعة الكتابة (Touch Typing)</strong></h2>
+<p><strong>🎯 الهدف:</strong> إقناع المهندس أن البطء في الكتابة هو عنق
+الزجاجة (Bottleneck).</p>
+<p><strong>⏱️ المدة المقترحة:</strong> 10-12 دقيقة</p>
+<h3 id="المقدمة-دقيقة-واحدة"><strong>المقدمة:</strong> <em>(دقيقة
+واحدة)</em></h3>
+<blockquote>
+<p>“أسرع مبرمج أو باحث في العالم تفكيره سابق صوابعه. لو بتفكر أسرع ما
+بتكتب، يبقى عندك مشكلة. النهاردة هنحلها.”</p>
+</blockquote>
+<p><strong>إحصائية صادمة:</strong> المبرمج العادي يكتب 30-40 كلمة/دقيقة،
+بينما المحترف يكتب 80-100+ كلمة/دقيقة. الفرق = <strong>ساعات من الوقت
+المهدر أسبوعياً</strong>.</p>
+<h3 id="المحتوى-الأساسي-7-8-دقائق"><strong>المحتوى الأساسي:</strong>
+<em>(7-8 دقائق)</em></h3>
+<p><strong>1. موضع الارتكاز (Home Row):</strong> <em>(دقيقتان)</em></p>
+<pre><code>┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┐
+│ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │
+├───┼───┼───┼───┼───┼───┼───┼───┼───┼───┤
+│ A │ S │ D │ F │ G │ H │ J │ K │ L │ ; │
+├───┼───┼───┼───┼───┼───┼───┼───┼───┼───┤
+│ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │
+└───┴───┴───┴───┴───┴───┴───┴───┴───┴───┘
+        ↑           ↑
+       (F)         (J)  ← البروز الصغير</code></pre>
+<ul>
+<li><strong>اليد اليسرى:</strong> A S D F (الخنصر → السبابة)</li>
+<li><strong>اليد اليمنى:</strong> J K L ; (السبابة → الخنصر)</li>
+<li><strong>لماذا F و J فيهم بروز؟</strong> عشان تعرف مكان يدك من غير ما
+تبص!</li>
+</ul>
+<p><strong>2. الأصابع المخصصة (Finger Zones):</strong>
+<em>(دقيقتان)</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">الإصبع</th>
+<th style="text-align: left;">اليد اليسرى</th>
+<th style="text-align: left;">اليد اليمنى</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">الخنصر</td>
+<td style="text-align: left;">Q A Z, 1</td>
+<td style="text-align: left;">P ; / , 0</td>
+</tr>
+<tr>
+<td style="text-align: left;">البنصر</td>
+<td style="text-align: left;">W S X, 2</td>
+<td style="text-align: left;">O L . , 9</td>
+</tr>
+<tr>
+<td style="text-align: left;">الوسطى</td>
+<td style="text-align: left;">E D C, 3</td>
+<td style="text-align: left;">I K , , 8</td>
+</tr>
+<tr>
+<td style="text-align: left;">السبابة</td>
+<td style="text-align: left;">R T F G V B, 4 5</td>
+<td style="text-align: left;">Y U H J N M, 6 7</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>الهدف:</strong> “الذاكرة العضلية” (Muscle Memory) - أصابعك
+تتحرك تلقائياً</li>
+</ul>
+<p><strong>3. قاعدة الذهب:</strong> <em>(دقيقة)</em></p>
+<blockquote>
+<p>⚠️ <strong>“ممنوع تبص على الكيبورد نهائياً حتى لو هتغلط!”</strong></p>
+</blockquote>
+<ul>
+<li>الغلط جزء من التعلم</li>
+<li>دماغك لازم يعتمد على الإحساس مش النظر</li>
+<li>بعد أسبوع أو اتنين، هتلاقي نفسك بتكتب من غير تفكير</li>
+</ul>
+<p><strong>4. الأدوات والموارد:</strong> <em>(دقيقتان)</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">الأداة</th>
+<th style="text-align: left;">الغرض</th>
+<th style="text-align: left;">المستوى</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Keybr.com</strong></td>
+<td style="text-align: left;">تعلم توزيع الحروف</td>
+<td style="text-align: left;">مبتدئ</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Monkeytype.com</strong></td>
+<td style="text-align: left;">زيادة السرعة</td>
+<td style="text-align: left;">متوسط</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>TypeRacer.com</strong></td>
+<td style="text-align: left;">التحدي والمنافسة</td>
+<td style="text-align: left;">متقدم</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>10fastfingers.com</strong></td>
+<td style="text-align: left;">اختبار السرعة</td>
+<td style="text-align: left;">الكل</td>
+</tr>
+</tbody>
+</table>
+<p><strong>نصيحة:</strong> ابدأ بـ Keybr لمدة أسبوعين، ثم انتقل لـ
+Monkeytype</p>
+<h3 id="لماذا-هذا-مهم-للمبرمجين-والباحثين-دقيقة"><strong>لماذا هذا مهم
+للمبرمجين والباحثين؟</strong> <em>(دقيقة)</em></h3>
+<ul>
+<li><strong>الكتابة السريعة = التفكير السريع:</strong> لما تكتب بسرعة،
+بتركز في “حل المشكلة” مش في “مكان الحرف فين”</li>
+<li><strong>تواصل أفضل مع الـ AI:</strong> كل ما تكتب أسرع، كل ما تقدر
+تدي الـ AI تعليمات أدق وأطول</li>
+<li><strong>توثيق أفضل:</strong> هتكتب Comments و Documentation أكتر
+لأنها مبقتش مجهود</li>
+</ul>
+<h3 id="الخاتمة-والواجب-العملي-دقيقة"><strong>الخاتمة والواجب
+العملي:</strong> <em>(دقيقة)</em></h3>
+<blockquote>
+<p>“الأسبوع ده، اتدرب <strong>15 دقيقة يومياً</strong> على Keybr. مش
+أكتر. الاستمرارية أهم من الكثافة.”</p>
+</blockquote>
+<p><strong>📊 تحدي:</strong> شارك سرعتك الحالية في التعليقات، وارجع بعد
+أسبوع وقول لنا التحسن!</p>
+<hr />
+<h2
+id="الفيديو-الثالث-التخاطب---الشاشة-السوداء-the-terminal"><strong>الفيديو
+الثالث: التخاطب - الشاشة السوداء (The Terminal)</strong></h2>
+<p><strong>🎯 الهدف:</strong> كسر حاجز الخوف من سطر الأوامر (Command
+Line).</p>
+<p><strong>⏱️ المدة المقترحة:</strong> 12-15 دقيقة</p>
+<h3 id="المقدمة-دقيقة-ونصف"><strong>المقدمة:</strong> <em>(دقيقة
+ونصف)</em></h3>
+<blockquote>
+<p>“الشاشة السوداء دي مش للهاكرز بس في الأفلام. دي أسرع طريقة تدي بيها
+أوامر مباشرة للكمبيوتر بدون زينة. وهي اللغة اللي الـ AI بيفهمها أحسن
+حاجة.”</p>
+</blockquote>
+<p><strong>مقارنة سريعة:</strong></p>
+<pre><code>🐢 بالماوس: كليك يمين → New Folder → تكتب الاسم → Enter → كليك يمين → New File...
+⚡ بالترمينال: mkdir project &amp;&amp; cd project &amp;&amp; touch main.py  (ثانية واحدة!)</code></pre>
+<h3 id="المحتوى-الأساسي-8-10-دقائق"><strong>المحتوى الأساسي:</strong>
+<em>(8-10 دقائق)</em></h3>
+<p><strong>1. فهم الترمينال (What is it?):</strong>
+<em>(دقيقتان)</em></p>
+<ul>
+<li><strong>الـ Shell:</strong> البرنامج اللي بيترجم أوامرك (Bash, Zsh,
+PowerShell)</li>
+<li><strong>الـ Terminal:</strong> النافذة اللي بتكتب فيها</li>
+<li><strong>لماذا نستخدمه؟</strong>
+<ul>
+<li>السرعة: أوامر بسيطة = نتائج فورية</li>
+<li>الأتمتة: ممكن تحفظ أوامرك في ملف وتشغلها لاحقاً</li>
+<li>القوة: فيه حاجات مستحيل تعملها بالماوس</li>
+</ul></li>
+</ul>
+<p><strong>2. المفاهيم الأساسية:</strong> <em>(4 دقائق)</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">المفهوم</th>
+<th style="text-align: left;">الأمر</th>
+<th style="text-align: left;">الشرح</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>أين أنا؟</strong></td>
+<td style="text-align: left;"><code>pwd</code></td>
+<td style="text-align: left;">Print Working Directory - يعرض المسار
+الحالي</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ماذا هنا؟</strong></td>
+<td style="text-align: left;"><code>ls</code> أو
+<code>ls -la</code></td>
+<td style="text-align: left;">يعرض محتويات المجلد</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>التنقل</strong></td>
+<td style="text-align: left;"><code>cd folder</code></td>
+<td style="text-align: left;">الدخول لمجلد</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>العودة</strong></td>
+<td style="text-align: left;"><code>cd ..</code></td>
+<td style="text-align: left;">الرجوع لمجلد أعلى</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>العودة للـ Home</strong></td>
+<td style="text-align: left;"><code>cd ~</code></td>
+<td style="text-align: left;">الذهاب للمجلد الرئيسي</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>إنشاء مجلد</strong></td>
+<td style="text-align: left;"><code>mkdir name</code></td>
+<td style="text-align: left;">Make Directory</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>إنشاء ملف</strong></td>
+<td style="text-align: left;"><code>touch file.txt</code></td>
+<td style="text-align: left;">إنشاء ملف فارغ</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>نسخ</strong></td>
+<td style="text-align: left;"><code>cp source dest</code></td>
+<td style="text-align: left;">Copy</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>نقل/تسمية</strong></td>
+<td style="text-align: left;"><code>mv source dest</code></td>
+<td style="text-align: left;">Move/Rename</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>حذف</strong></td>
+<td style="text-align: left;"><code>rm file</code></td>
+<td style="text-align: left;">Remove (⚠️ لا يوجد سلة محذوفات!)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>عرض محتوى</strong></td>
+<td style="text-align: left;"><code>cat file.txt</code></td>
+<td style="text-align: left;">عرض محتوى ملف</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>مسح الشاشة</strong></td>
+<td style="text-align: left;"><code>clear</code> أو
+<code>Ctrl+L</code></td>
+<td style="text-align: left;">تنظيف الشاشة</td>
+</tr>
+</tbody>
+</table>
+<p><strong>3. مفهوم المسار (Path):</strong> <em>(دقيقة ونصف)</em></p>
+<pre><code>المسار المطلق (Absolute Path):
+/home/user/projects/my-app/src/main.py
+  ↓
+يبدأ من الـ Root (/)
+
+المسار النسبي (Relative Path):
+./src/main.py  أو  ../other-project/
+  ↓
+يبدأ من مكانك الحالي</code></pre>
+<p><strong>4. الأوامر المركبة (Chaining):</strong> <em>(دقيقة)</em></p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># تنفيذ أوامر متتالية</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> project <span class="kw">&amp;&amp;</span> <span class="bu">cd</span> project <span class="kw">&amp;&amp;</span> <span class="fu">touch</span> main.py</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># الـ Pipe: إخراج أمر = دخول أمر آخر</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="at">-la</span> <span class="kw">|</span> <span class="fu">grep</span> <span class="st">&quot;.py&quot;</span>  <span class="co"># عرض ملفات Python فقط</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># إعادة التوجيه</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">&quot;Hello World&quot;</span> <span class="op">&gt;</span> file.txt  <span class="co"># كتابة في ملف</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> file.txt <span class="op">&gt;&gt;</span> log.txt        <span class="co"># إضافة لملف موجود</span></span></code></pre></div>
+<p><strong>5. اختصارات تسرع شغلك:</strong> <em>(دقيقة)</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">الاختصار</th>
+<th style="text-align: left;">الوظيفة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>Tab</code></td>
+<td style="text-align: left;">إكمال تلقائي للأسماء</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>↑</code> / <code>↓</code></td>
+<td style="text-align: left;">التنقل في الأوامر السابقة</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Ctrl + R</code></td>
+<td style="text-align: left;">البحث في الـ History</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Ctrl + C</code></td>
+<td style="text-align: left;">إلغاء الأمر الحالي</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Ctrl + L</code></td>
+<td style="text-align: left;">مسح الشاشة</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>!!</code></td>
+<td style="text-align: left;">تكرار آخر أمر</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>!$</code></td>
+<td style="text-align: left;">آخر argument من الأمر السابق</td>
+</tr>
+</tbody>
+</table>
+<h3 id="الربط-بالـ-ai-دقيقة"><strong>الربط بالـ AI:</strong>
+<em>(دقيقة)</em></h3>
+<blockquote>
+<p>“الـ AI بيفهم التكست (Text). الترمينال كله Text. فلو عايز الـ AI
+يتحكم في جهازك، <strong>الترمينال هو لغته المفضلة</strong>.”</p>
+</blockquote>
+<ul>
+<li>أدوات مثل <code>shell-gpt</code> و <code>GitHub Copilot CLI</code>
+بتحول الترمينال لمساعد ذكي</li>
+<li>تقدر تقول: “create a python project structure” والأداة تنفذ
+الأوامر</li>
+</ul>
+<h3 id="الخاتمة-والواجب-العملي-دقيقة-1"><strong>الخاتمة والواجب
+العملي:</strong> <em>(دقيقة)</em></h3>
+<blockquote>
+<p>“حاول اليوم تفتح ملفات مشروعك وتتنقل بينهم <strong>من غير ما تلمس
+الماوس</strong>. أول يوم هيكون صعب، تاني يوم أسهل، تالت يوم هتحس
+بالقوة.”</p>
+</blockquote>
+<p><strong>📝 تمرين:</strong></p>
+<ol type="1">
+<li>افتح الترمينال</li>
+<li>اذهب لـ Desktop: <code>cd ~/Desktop</code></li>
+<li>أنشئ مجلد: <code>mkdir terminal-practice</code></li>
+<li>ادخل فيه وأنشئ 3 ملفات:
+<code>touch file1.txt file2.txt file3.txt</code></li>
+<li>اعرض المحتويات: <code>ls -la</code></li>
+</ol>
+<hr />
+<h2
+id="الفيديو-الرابع-الذاكرة---إدارة-المشاريع-git-version-control"><strong>الفيديو
+الرابع: الذاكرة - إدارة المشاريع (Git &amp; Version
+Control)</strong></h2>
+<p><strong>🎯 الهدف:</strong> تعليم نظام حفظ الجهد (ليس للمبرمجين فقط،
+بل للباحثين والكتاب أيضاً).</p>
+<p><strong>⏱️ المدة المقترحة:</strong> 15-18 دقيقة</p>
+<h3 id="المقدمة-دقيقتان"><strong>المقدمة:</strong>
+<em>(دقيقتان)</em></h3>
+<p><strong>صورة مضحكة:</strong></p>
+<pre><code>📁 My Project
+├── Thesis_final.doc
+├── Thesis_final_final.doc
+├── Thesis_final_v2.doc
+├── Thesis_final_v2_REAL.doc
+├── Thesis_final_v2_REAL_THIS_ONE.doc
+├── Thesis_backup_old_dont_delete.doc
+└── Thesis_محمد_تعديلات_أخيرة.doc</code></pre>
+<blockquote>
+<p>“لو ده شكل ملفاتك، يبقى الفيديو ده عشانك. خلينا نحل المشكلة دي
+للأبد.”</p>
+</blockquote>
+<h3 id="المحتوى-الأساسي-10-12-دقيقة"><strong>المحتوى الأساسي:</strong>
+<em>(10-12 دقيقة)</em></h3>
+<p><strong>1. ما هو Git؟:</strong> <em>(دقيقتان)</em></p>
+<ul>
+<li><strong>الفكرة البسيطة:</strong> Git هو “آلة زمن” لمشروعك</li>
+<li>كل تعديل بتعمله = “نقطة حفظ” تقدر ترجع لها في أي وقت</li>
+<li>لو حاجة اتبوظت، ترجع لنسخة قبلها في ثواني</li>
+<li>مش بس للكود: ممكن للبحث، للكتابة، لأي ملفات نصية</li>
+</ul>
+<p><strong>قصة Git:</strong></p>
+<blockquote>
+<p>“لينوس تورفالدس (مخترع Linux) اخترع Git في أسبوعين لأنه كان محتاج
+طريقة ينظم بيها شغل آلاف المبرمجين على نواة لينكس.”</p>
+</blockquote>
+<p><strong>2. المصطلحات ببساطة:</strong> <em>(3 دقائق)</em></p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">المصطلح</th>
+<th style="text-align: left;">التشبيه</th>
+<th style="text-align: left;">الشرح</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Repository (Repo)</strong></td>
+<td style="text-align: left;">📦 صندوق المشروع</td>
+<td style="text-align: left;">المجلد اللي فيه كل ملفاتك + تاريخها</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Commit</strong></td>
+<td style="text-align: left;">📸 للقطة/Save Point</td>
+<td style="text-align: left;">حفظ الحالة الحالية مع رسالة توضيحية</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Branch</strong></td>
+<td style="text-align: left;">🌿 فرع</td>
+<td style="text-align: left;">نسخة موازية للتجريب بدون ما تأثر على
+الأصل</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Merge</strong></td>
+<td style="text-align: left;">🔀 دمج</td>
+<td style="text-align: left;">جمع فرعين مع بعض</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Push</strong></td>
+<td style="text-align: left;">⬆️ رفع</td>
+<td style="text-align: left;">إرسال الشغل للسحابة (GitHub)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Pull</strong></td>
+<td style="text-align: left;">⬇️ سحب</td>
+<td style="text-align: left;">جلب التحديثات من السحابة</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Clone</strong></td>
+<td style="text-align: left;">📋 نسخ</td>
+<td style="text-align: left;">تحميل مشروع موجود على GitHub</td>
+</tr>
+</tbody>
+</table>
+<p><strong>3. الأوامر الأساسية:</strong> <em>(3 دقائق)</em></p>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. بداية مشروع جديد</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init                    <span class="co"># تهيئة المجلد كـ Git repo</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. رؤية الحالة</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status                  <span class="co"># ما الملفات المتغيرة؟</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. إضافة ملفات للـ Staging</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add file.txt            <span class="co"># إضافة ملف معين</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .                   <span class="co"># إضافة كل الملفات</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. حفظ (Commit)</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">&quot;وصف التغيير&quot;</span>  <span class="co"># حفظ مع رسالة</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="co"># 5. رؤية التاريخ</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log <span class="at">--oneline</span>           <span class="co"># عرض الـ commits السابقة</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a><span class="co"># 6. الرجوع للماضي</span></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout abc123         <span class="co"># الذهاب لـ commit معين</span></span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout main           <span class="co"># العودة للحاضر</span></span></code></pre></div>
+<p><strong>4. سير العمل اليومي (Daily Workflow):</strong>
+<em>(دقيقتان)</em></p>
+<pre><code>┌─────────────────────────────────────────────────────────┐
+│  صباحاً: git pull         (جلب آخر التحديثات)          │
+│     ↓                                                    │
+│  الشغل: تعديل الملفات...                                │
+│     ↓                                                    │
+│  حفظ: git add . &amp;&amp; git commit -m &quot;وصف&quot;                  │
+│     ↓                                                    │
+│  نهاية اليوم: git push    (رفع للسحابة)                 │
+└─────────────────────────────────────────────────────────┘</code></pre>
+<p><strong>5. GitHub - المنصة:</strong> <em>(دقيقتان)</em></p>
+<ul>
+<li><strong>ما هو GitHub؟</strong> موقع لتخزين الـ Repos على
+السحابة</li>
+<li><strong>الفوائد:</strong>
+<ul>
+<li>🔒 Backup تلقائي لشغلك</li>
+<li>👥 تعاون مع آخرين</li>
+<li>📜 Portfolio لمشاريعك</li>
+<li>🌍 مشاركة الـ Open Source</li>
+</ul></li>
+</ul>
+<p><strong>ربط مشروع بـ GitHub:</strong></p>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add origin https://github.com/username/repo.git</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">-u</span> origin main</span></code></pre></div>
+<h3 id="أهمية-هذا-للباحث-والكاتب-دقيقة"><strong>أهمية هذا للباحث
+والكاتب:</strong> <em>(دقيقة)</em></h3>
+<ul>
+<li>📝 لو مسحت فقرة بالغلط، ترجعها في ثانية</li>
+<li>🔬 لو جربت تحليل وفشل، ترجع للكود اللي كان شغال</li>
+<li>👥 لو شغال مع فريق، كل واحد يشتغل على Branch ويدمجوا في الآخر</li>
+<li>📊 كل تغيير موثق: مين عمله؟ إمتى؟ ليه؟</li>
+</ul>
+<h3 id="الخاتمة-دقيقة"><strong>الخاتمة:</strong> <em>(دقيقة)</em></h3>
+<blockquote>
+<p>“دلوقتي عندنا مشروع منظم، بنكتب بسرعة، وبنتحكم بالترمينال. ناقصنا
+إيه؟ نتحرك جوه الملفات <strong>بسرعة البرق</strong>.”</p>
+</blockquote>
+<p><strong>📝 الواجب:</strong></p>
+<ol type="1">
+<li>أنشئ حساب على GitHub (مجاني)</li>
+<li>حول أي مجلد عندك لـ Git repo: <code>git init</code></li>
+<li>اعمل أول commit:
+<code>git add . &amp;&amp; git commit -m "First commit"</code></li>
+</ol>
+<hr />
+<h2
+id="الفيديو-الخامس-السرعة-القصوى---التحرك-والتحرير-vim-motions"><strong>الفيديو
+الخامس: السرعة القصوى - التحرك والتحرير (Vim Motions)</strong></h2>
+<p><strong>🎯 الهدف:</strong> تعليم المستخدم كيفية تعديل النصوص والأكواد
+بسرعة البرق.</p>
+<p><strong>⏱️ المدة المقترحة:</strong> 12-15 دقيقة</p>
+<h3 id="المقدمة-دقيقة-ونصف-1"><strong>المقدمة:</strong> <em>(دقيقة
+ونصف)</em></h3>
+<blockquote>
+<p>“ليه ترفع إيدك من على الكيبورد عشان تمسك الماوس وتحدد سطر وتمسحه،
+بينما ممكن تعمل ده بضغطة زرارين؟”</p>
+</blockquote>
+<p><strong>الحقيقة المرة:</strong> المبرمج يقضي 70% من وقته في
+<strong>قراءة</strong> و<strong>تعديل</strong> الكود، مش في كتابة كود
+جديد. Vim تم تصميمه لهذا بالضبط.</p>
+<h3 id="المحتوى-الأساسي-8-10-دقائق-1"><strong>المحتوى الأساسي:</strong>
+<em>(8-10 دقائق)</em></h3>
+<p><strong>1. مش لازم تثبت Vim!</strong> <em>(30 ثانية)</em></p>
+<ul>
+<li>هنستخدم <strong>Vim Extension</strong> جوه VS Code</li>
+<li>كل مميزات Vim + كل مميزات VS Code = 💪</li>
+<li>التثبيت: <code>Extensions → Vim → Install</code></li>
+</ul>
+<p><strong>2. فلسفة الأوضاع (Modal Editing):</strong>
+<em>(دقيقتان)</em></p>
+<pre><code>┌─────────────────────────────────────────────────────────┐
+│                    NORMAL MODE                          │
+│              (الوضع الافتراضي - للتنقل)                 │
+│                         │                               │
+│            ┌────────────┼────────────┐                  │
+│            ↓            ↓            ↓                  │
+│    [i] INSERT    [v] VISUAL    [:] COMMAND              │
+│      للكتابة      للتحديد       للأوامر                  │
+│            │            │            │                  │
+│            └────────────┼────────────┘                  │
+│                    [Esc]                                │
+│                   للعودة                                │
+└─────────────────────────────────────────────────────────┘</code></pre>
+<ul>
+<li><strong>Normal Mode:</strong> أنت هنا 80% من الوقت (للتنقل
+والتعديل)</li>
+<li><strong>Insert Mode:</strong> للكتابة فقط (اضغط <code>i</code>
+للدخول، <code>Esc</code> للخروج)</li>
+<li><strong>Visual Mode:</strong> لتحديد النص (اضغط <code>v</code>)</li>
+</ul>
+<p><strong>3. الحركة الأساسية (Navigation):</strong>
+<em>(دقيقتان)</em></p>
+<pre><code>         ↑
+         k
+    ← h     l →      (بدلاً من الأسهم!)
+         j
+         ↓</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">الأمر</th>
+<th style="text-align: left;">الحركة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>h j k l</code></td>
+<td style="text-align: left;">يسار، أسفل، أعلى، يمين</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>w</code></td>
+<td style="text-align: left;">الكلمة التالية (word)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>b</code></td>
+<td style="text-align: left;">الكلمة السابقة (back)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>e</code></td>
+<td style="text-align: left;">نهاية الكلمة (end)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>0</code></td>
+<td style="text-align: left;">بداية السطر</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>$</code></td>
+<td style="text-align: left;">نهاية السطر</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>gg</code></td>
+<td style="text-align: left;">بداية الملف</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>G</code></td>
+<td style="text-align: left;">نهاية الملف</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>{</code> / <code>}</code></td>
+<td style="text-align: left;">الفقرة السابقة/التالية</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Ctrl+d/u</code></td>
+<td style="text-align: left;">نصف صفحة أسفل/أعلى</td>
+</tr>
+</tbody>
+</table>
+<p><strong>4. الأوامر السحرية (Operators + Motions):</strong> <em>(3
+دقائق)</em></p>
+<p><strong>الفكرة العبقرية:</strong>
+<code>Operator + Motion = Action</code></p>
+<table>
+<thead>
+<tr>
+<th>Operator</th>
+<th>المعنى</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>d</code></td>
+<td>Delete (حذف)</td>
+</tr>
+<tr>
+<td><code>c</code></td>
+<td>Change (تغيير)</td>
+</tr>
+<tr>
+<td><code>y</code></td>
+<td>Yank (نسخ)</td>
+</tr>
+<tr>
+<td><code>v</code></td>
+<td>Visual (تحديد)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>أمثلة:</strong></p>
+<pre><code>dw  = delete word        (حذف كلمة)
+d$  = delete to end      (حذف لنهاية السطر)
+dd  = delete line        (حذف سطر كامل)
+cw  = change word        (تغيير كلمة)
+ciw = change inner word  (تغيير الكلمة اللي أنت فيها)
+ci&quot; = change inside &quot;&quot;   (تغيير ما بين علامتي التنصيص)
+yy  = yank line          (نسخ سطر)
+p   = paste              (لصق)</code></pre>
+<p><strong>5. أوامر السرعة الخارقة:</strong> <em>(دقيقتان)</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">الأمر</th>
+<th style="text-align: left;">الوظيفة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>ciw</code></td>
+<td style="text-align: left;">غيّر الكلمة الحالية</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>ci"</code></td>
+<td style="text-align: left;">غيّر ما بين “”</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>ci(</code></td>
+<td style="text-align: left;">غيّر ما بين ()</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>ct.</code></td>
+<td style="text-align: left;">غيّر حتى النقطة</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>dt.</code></td>
+<td style="text-align: left;">احذف حتى النقطة</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>f{char}</code></td>
+<td style="text-align: left;">اذهب للحرف</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>*</code></td>
+<td style="text-align: left;">ابحث عن الكلمة الحالية</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>.</code></td>
+<td style="text-align: left;">كرر آخر أمر</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>u</code></td>
+<td style="text-align: left;">Undo</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>Ctrl+r</code></td>
+<td style="text-align: left;">Redo</td>
+</tr>
+</tbody>
+</table>
+<h3 id="تطبيق-عملي-demo-دقيقتان"><strong>تطبيق عملي (Demo):</strong>
+<em>(دقيقتان)</em></h3>
+<p><strong>المهمة:</strong> تغيير اسم متغير في 5 أماكن</p>
+<p><strong>بالطريقة العادية:</strong></p>
+<ol type="1">
+<li>Select بالماوس → Delete → Type → Next → Repeat… (30 ثانية)</li>
+</ol>
+<p><strong>بـ Vim:</strong></p>
+<ol type="1">
+<li><code>*</code> (ابحث عن الكلمة)</li>
+<li><code>ciw</code> (غيرها)</li>
+<li><code>n.n.n.</code> (next + repeat) (5 ثواني!)</li>
+</ol>
+<h3 id="الخاتمة-دقيقة-1"><strong>الخاتمة:</strong> <em>(دقيقة)</em></h3>
+<blockquote>
+<p>“Vim Learning Curve صعبة في الأول، لكن بعد أسبوع هتحس إن كل محرر تاني
+بطيء جداً.”</p>
+</blockquote>
+<p><strong>📝 الواجب:</strong></p>
+<ol type="1">
+<li>ثبت Vim Extension في VS Code</li>
+<li>تدرب 10 دقائق يومياً على <code>hjkl</code> و <code>w b e</code></li>
+<li>موقع للتدريب: <strong>openvim.com</strong> أو
+<strong>vim-adventures.com</strong></li>
+</ol>
+<hr />
+<h2
+id="الفيديو-السادس-الأتمتة---scripts-و-aliases-قوة-التكرار"><strong>الفيديو
+السادس: الأتمتة - Scripts و Aliases (قوة التكرار)</strong></h2>
+<p><strong>🎯 الهدف:</strong> تعليم المستخدم كيفية أتمتة المهام المتكررة
+وتوفير الوقت.</p>
+<p><strong>⏱️ المدة المقترحة:</strong> 10-12 دقيقة</p>
+<h3 id="المقدمة-دقيقة"><strong>المقدمة:</strong> <em>(دقيقة)</em></h3>
+<blockquote>
+<p>“لو بتكرر نفس الأوامر كل يوم، يبقى أنت بتضيع وقتك. الكمبيوتر اتعمل
+عشان يعمل الحاجات المملة بدالك.”</p>
+</blockquote>
+<h3 id="المحتوى-الأساسي"><strong>المحتوى الأساسي:</strong></h3>
+<p><strong>1. ما هو الـ Alias؟</strong></p>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># بدلاً من:</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add . <span class="kw">&amp;&amp;</span> <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">&quot;update&quot;</span> <span class="kw">&amp;&amp;</span> <span class="fu">git</span> push</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># اكتب فقط:</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="bu">alias</span> gp=<span class="st">&#39;git add . &amp;&amp; git commit -m &quot;update&quot; &amp;&amp; git push&#39;</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="ex">gp</span></span></code></pre></div>
+<p><strong>أمثلة عملية:</strong></p>
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="bu">alias</span> gs=<span class="st">&#39;git status&#39;</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="bu">alias</span> gc=<span class="st">&#39;git commit -m&#39;</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="bu">alias</span> projects=<span class="st">&#39;cd ~/Documents/Projects&#39;</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="bu">alias</span> py=<span class="st">&#39;python3&#39;</span></span></code></pre></div>
+<p><strong>2. ما هو الـ Script؟</strong></p>
+<p>ملف فيه مجموعة أوامر تتنفذ بالترتيب - مثل script لإنشاء مشروع
+جديد.</p>
+<p><strong>3. أدوات متقدمة:</strong></p>
+<table>
+<thead>
+<tr>
+<th>الأداة</th>
+<th>الوظيفة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>fzf</strong></td>
+<td>Fuzzy finder</td>
+</tr>
+<tr>
+<td><strong>zoxide</strong></td>
+<td>cd أذكى</td>
+</tr>
+<tr>
+<td><strong>starship</strong></td>
+<td>Prompt جميل</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="الفيديو-السابع-بيئة-التطوير---vs-code-المتقدم"><strong>الفيديو
+السابع: بيئة التطوير - VS Code المتقدم</strong></h2>
+<p><strong>🎯 الهدف:</strong> تحويل VS Code من محرر نصوص إلى “مركز
+قيادة” متكامل.</p>
+<p><strong>⏱️ المدة المقترحة:</strong> 12-15 دقيقة</p>
+<h3 id="الاختصارات-الضرورية"><strong>الاختصارات الضرورية:</strong></h3>
+<table>
+<thead>
+<tr>
+<th>الاختصار</th>
+<th>الوظيفة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Ctrl + P</code></td>
+<td>Quick Open</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + P</code></td>
+<td>Command Palette</td>
+</tr>
+<tr>
+<td><code>Ctrl + D</code></td>
+<td>تحديد الكلمة + التالية</td>
+</tr>
+<tr>
+<td><code>Ctrl + /</code></td>
+<td>تعليق السطر</td>
+</tr>
+<tr>
+<td><code>Ctrl + `</code></td>
+<td>فتح Terminal</td>
+</tr>
+</tbody>
+</table>
+<h3 id="الإضافات-الأساسية"><strong>الإضافات الأساسية:</strong></h3>
+<table>
+<thead>
+<tr>
+<th>الإضافة</th>
+<th>الوظيفة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Vim</strong></td>
+<td>Vim keybindings</td>
+</tr>
+<tr>
+<td><strong>GitLens</strong></td>
+<td>معلومات Git متقدمة</td>
+</tr>
+<tr>
+<td><strong>Error Lens</strong></td>
+<td>عرض الأخطاء مباشرة</td>
+</tr>
+<tr>
+<td><strong>Prettier</strong></td>
+<td>تنسيق الكود</td>
+</tr>
+<tr>
+<td><strong>GitHub Copilot</strong></td>
+<td>AI مدمج</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2
+id="الفيديو-الثامن-الخلاصة---دمج-الذكاء-الاصطناعي-the-workflow"><strong>الفيديو
+الثامن: الخلاصة - دمج الذكاء الاصطناعي (The Workflow)</strong></h2>
+<p><strong>🎯 الهدف:</strong> تجميع كل المهارات السابقة لإنشاء “المهندس
+الخارق” (The Super Engineer).</p>
+<p><strong>⏱️ المدة المقترحة:</strong> 15-20 دقيقة</p>
+<h3 id="المقدمة"><strong>المقدمة:</strong></h3>
+<blockquote>
+<p>“اتعلمنا نكتب بسرعة، نستخدم الترمينال، ننظم شغلنا بـ Git، نتحرك بـ
+Vim، نأتمت المهام، ونستخدم VS Code كالمحترفين. دلوقتي جه وقت
+<strong>الطبقة الأخيرة</strong>: الذكاء الاصطناعي.”</p>
+</blockquote>
+<h3 id="أدوات-الـ-ai-المدمجة"><strong>أدوات الـ AI
+المدمجة:</strong></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">الأداة</th>
+<th style="text-align: left;">المكان</th>
+<th style="text-align: left;">الوظيفة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>GitHub Copilot</strong></td>
+<td style="text-align: left;">VS Code</td>
+<td style="text-align: left;">إكمال الكود تلقائياً</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Copilot Chat</strong></td>
+<td style="text-align: left;">VS Code</td>
+<td style="text-align: left;">محادثة مع الـ AI</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Copilot CLI</strong></td>
+<td style="text-align: left;">Terminal</td>
+<td style="text-align: left;">أوامر shell بالعربي</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Shell-GPT</strong></td>
+<td style="text-align: left;">Terminal</td>
+<td style="text-align: left;">بديل مفتوح المصدر</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>aider</strong></td>
+<td style="text-align: left;">Terminal</td>
+<td style="text-align: left;">AI يعدل الكود مباشرة</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Cursor</strong></td>
+<td style="text-align: left;">IDE كامل</td>
+<td style="text-align: left;">VS Code معزز بالـ AI</td>
+</tr>
+</tbody>
+</table>
+<h3 id="كيف-تتكلم-مع-الـ-ai-prompt-engineering"><strong>كيف تتكلم مع الـ
+AI (Prompt Engineering):</strong></h3>
+<p><strong>❌ سيء:</strong> “اعملي كود”</p>
+<p><strong>✅ أفضل:</strong> “اكتب دالة Python تقرأ ملف CSV وتحسب متوسط
+العمود الثالث. استخدم pandas. أضف error handling.”</p>
+<p><strong>قواعد الـ Prompting:</strong></p>
+<ol type="1">
+<li><strong>كن محدداً:</strong> اللغة، المكتبة، المتطلبات</li>
+<li><strong>أعطِ سياق:</strong> “في مشروع Django…”</li>
+<li><strong>اطلب الشرح:</strong> “اشرح كل سطر”</li>
+<li><strong>قسّم المهام الكبيرة:</strong> خطوة خطوة</li>
+<li><strong>راجع دائماً:</strong> الـ AI بيغلط</li>
+</ol>
+<h3 id="السيناريو-الكامل-live-demo"><strong>السيناريو الكامل (Live
+Demo):</strong></h3>
+<pre><code>📋 المهمة: إنشاء أداة لتحليل بيانات المبيعات
+
+1️⃣ الترمينال + AI
+   $ copilot &quot;create python project for data analysis&quot;
+   → ينشئ الهيكل تلقائياً
+
+2️⃣ VS Code + Copilot
+   - افتح main.py
+   - ابدأ بكتابة comment والـ Copilot يكمل
+
+3️⃣ Copilot Chat
+   - &quot;Explain this function&quot;
+   - &quot;Add error handling&quot;
+
+4️⃣ Vim Motions للتعديل السريع
+   - ciw لتغيير أسماء المتغيرات
+
+5️⃣ Git للحفظ
+   $ git add . &amp;&amp; git commit -m &quot;Add analyzer&quot;
+   $ git push
+
+⏱️ الوقت الكلي: 5 دقائق (بدلاً من ساعة!)</code></pre>
+<h3 id="نصائح-ذهبية"><strong>نصائح ذهبية:</strong></h3>
+<ul>
+<li>✅ استخدم الـ AI للمهام المتكررة والـ boilerplate</li>
+<li>✅ راجع كل سطر قبل الـ commit</li>
+<li>✅ اتعلم من الكود اللي بيكتبه</li>
+<li>❌ لا تنسخ بدون فهم</li>
+<li>❌ لا تعتمد عليه 100%</li>
+</ul>
+<h3 id="الخاتمة-النهائية"><strong>الخاتمة النهائية:</strong></h3>
+<blockquote>
+<p>“الذكاء الاصطناعي <strong>مش هيستبدل</strong> المهندس. لكن المهندس
+اللي بيستخدم الـ AI وواقف على <strong>أرض صلبة من المهارات
+الأساسية</strong> (Fundamentals) هو اللي هيستبدل المهندس التقليدي.”</p>
+</blockquote>
+<p><strong>ملخص الرحلة:</strong></p>
+<pre><code>🧠 العقلية: AI = أداة مدمجة، مش موقع خارجي
+⌨️ الكتابة: أصابعك = عنق الزجاجة، سرّعها
+💻 الترمينال: لغة الآلة والـ AI
+📚 Git: ذاكرة مشروعك وآلة الزمن
+⚡ Vim: سرعة البرق في التعديل
+🔧 الأتمتة: لا تكرر، اختصر
+🛠️ VS Code: غرفة العمليات المتكاملة
+🤖 AI: الطبقة الأخيرة من القوة</code></pre>
+<hr />
+<h2 id="bonus-موارد-إضافية">🎁 Bonus: موارد إضافية</h2>
+<h3 id="كتب-مقترحة">📚 كتب مقترحة:</h3>
+<ul>
+<li>“The Pragmatic Programmer” - للعقلية البرمجية</li>
+<li>“Clean Code” by Robert Martin - للكود النظيف</li>
+</ul>
+<h3 id="قنوات-youtube">🎥 قنوات YouTube:</h3>
+<ul>
+<li><strong>ThePrimeagen</strong> - Vim &amp; Productivity</li>
+<li><strong>Fireship</strong> - Web Dev سريع</li>
+<li><strong>NetworkChuck</strong> - Terminal &amp; Linux</li>
+</ul>
+<h3 id="مواقع-تدريب">🌐 مواقع تدريب:</h3>
+<table>
+<thead>
+<tr>
+<th>الموقع</th>
+<th>الغرض</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>keybr.com</td>
+<td>Touch Typing</td>
+</tr>
+<tr>
+<td>monkeytype.com</td>
+<td>سرعة الكتابة</td>
+</tr>
+<tr>
+<td>openvim.com</td>
+<td>تعلم Vim</td>
+</tr>
+<tr>
+<td>learngitbranching.js.org</td>
+<td>Git تفاعلي</td>
+</tr>
+<tr>
+<td>explainshell.com</td>
+<td>شرح أوامر Shell</td>
+</tr>
+</tbody>
+</table>
+<h3 id="أدوات-مذكورة">🔧 أدوات مذكورة:</h3>
+<table>
+<thead>
+<tr>
+<th>الأداة</th>
+<th>الرابط</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VS Code</td>
+<td>code.visualstudio.com</td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td>github.com</td>
+</tr>
+<tr>
+<td>GitHub Copilot</td>
+<td>github.com/features/copilot</td>
+</tr>
+<tr>
+<td>Shell-GPT</td>
+<td>github.com/TheR1D/shell_gpt</td>
+</tr>
+<tr>
+<td>Cursor</td>
+<td>cursor.sh</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="جدول-المتابعة-الأسبوعي">📊 جدول المتابعة الأسبوعي</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">الأسبوع</th>
+<th style="text-align: left;">المهارة</th>
+<th style="text-align: left;">الهدف</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Touch Typing</td>
+<td style="text-align: left;">15 دقيقة يومياً على Keybr</td>
+</tr>
+<tr>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Terminal</td>
+<td style="text-align: left;">التنقل بدون ماوس</td>
+</tr>
+<tr>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Git</td>
+<td style="text-align: left;">أول repo + 10 commits</td>
+</tr>
+<tr>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Vim</td>
+<td style="text-align: left;">hjkl + w/b/e + ciw</td>
+</tr>
+<tr>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Automation</td>
+<td style="text-align: left;">5 aliases مفيدة</td>
+</tr>
+<tr>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">VS Code</td>
+<td style="text-align: left;">10 اختصارات + 5 extensions</td>
+</tr>
+<tr>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">AI Integration</td>
+<td style="text-align: left;">Copilot في مشروع حقيقي</td>
+</tr>
+<tr>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">المراجعة</td>
+<td style="text-align: left;">مشروع متكامل</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<blockquote>
+<p><strong>“الأدوات لا تصنع المحترف، لكن المحترف لا يستطيع الإبداع بدون
+أدواته.”</strong></p>
+</blockquote>
+<p><em>🎬 نهاية السلسلة - شكراً لمتابعتك!</em></p>
+</body>
+</html>

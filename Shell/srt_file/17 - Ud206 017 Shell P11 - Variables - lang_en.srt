@@ -1,0 +1,140 @@
+1
+00:00:00,000 --> 00:00:03,189
+The shell is actually a little programming language.
+
+2
+00:00:03,189 --> 00:00:06,570
+Just like JavaScript or Python, it has variables.
+
+3
+00:00:06,570 --> 00:00:08,440
+They look a little different though.
+
+4
+00:00:08,439 --> 00:00:12,219
+In the shell, whenever you create or modify a variable,
+
+5
+00:00:12,220 --> 00:00:15,214
+you just give it a name and an equal sign,
+
+6
+00:00:15,214 --> 00:00:18,300
+followed by the value that you want it to have.
+
+7
+00:00:18,300 --> 00:00:21,070
+Note that you can't put any spaces around the equal sign.
+
+8
+00:00:21,070 --> 00:00:23,320
+Then when you want to refer to the variable,
+
+9
+00:00:23,320 --> 00:00:26,475
+you put a dollar sign in front of its name.
+
+10
+00:00:26,475 --> 00:00:30,660
+But they're actually two different kinds of variables in the shell.
+
+11
+00:00:30,660 --> 00:00:33,259
+One of them is called a shell variable.
+
+12
+00:00:33,259 --> 00:00:37,619
+The lines and columns variables that you saw earlier are these kind.
+
+13
+00:00:37,619 --> 00:00:40,969
+These are just internal to the shell program itself.
+
+14
+00:00:40,969 --> 00:00:44,274
+The other kind is called an environment variable.
+
+15
+00:00:44,274 --> 00:00:48,859
+Environment variables are shared with programs that you run from within the shell.
+
+16
+00:00:48,859 --> 00:00:53,590
+One environment variable that's really important is the path variable.
+
+17
+00:00:53,590 --> 00:00:56,570
+That tells your system where your program files are.
+
+18
+00:00:56,570 --> 00:00:57,910
+So when you type a command,
+
+19
+00:00:57,909 --> 00:01:01,289
+such as LS, it can find the program to run it.
+
+20
+00:01:01,289 --> 00:01:06,495
+For instance, on my system the LS program is in slash bin slash LS.
+
+21
+00:01:06,495 --> 00:01:08,594
+So it's in the slash bin directory,
+
+22
+00:01:08,594 --> 00:01:12,120
+and the slash bin directory is here in my path variable.
+
+23
+00:01:12,120 --> 00:01:15,260
+The directories in the path variable are separated by
+
+24
+00:01:15,260 --> 00:01:19,490
+colons and the shell searches them starting with the first one,
+
+25
+00:01:19,489 --> 00:01:23,534
+and then proceeding to the right until it finds the command that you entered.
+
+26
+00:01:23,534 --> 00:01:27,439
+That's how the shell is able to find the LS command when I want to run.
+
+27
+00:01:27,439 --> 00:01:31,409
+You'll sometimes see instructions telling you to add a directory to your path,
+
+28
+00:01:31,409 --> 00:01:33,539
+so that programs in it can be found.
+
+29
+00:01:33,540 --> 00:01:35,880
+To add the new directory to the end of your path,
+
+30
+00:01:35,879 --> 00:01:40,185
+you do it like this: path equals dollar sign path colon,
+
+31
+00:01:40,185 --> 00:01:42,299
+and then the new directory.
+
+32
+00:01:42,299 --> 00:01:45,840
+But if you do it like this right at the shell prompt,
+
+33
+00:01:45,840 --> 00:01:49,025
+that change will only last until you close the shell.
+
+34
+00:01:49,025 --> 00:01:52,745
+We'll take a look at where you do it if you want to keep that changed next.
+
+35
+00:01:52,745 --> 00:01:55,329
+But first a couple of quizzes.
+
